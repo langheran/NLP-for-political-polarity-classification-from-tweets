@@ -1,2 +1,3 @@
-*.html linguist-generated
-*.xml linguist-generated
+*.html linguist-vendored linguist-generated
+*.xml linguist-vendored linguist-generated
+*.htm linguist-vendored linguist-generated
