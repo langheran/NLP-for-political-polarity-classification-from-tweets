@@ -1,0 +1,1 @@
+start "" "C:\Program Files\RStudio\bin\sumatra\SumatraPDF.exe" paper.pdf

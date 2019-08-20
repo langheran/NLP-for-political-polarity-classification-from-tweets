@@ -1,0 +1,3 @@
+::--filter pandoc-citeproc --bibliography=bib.bib --csl ieee-with-url.csl
+call pandoc --extract-media=./ --variable documentclass="elsarticle" --variable layout="review" --variable institute=\protect\input{institute.tex} --variable email="mgonza@itesm.mx" --variable abstract=\input{abstract.tex} --variable author=\protect\input{authors.tex} --variable header-includes=\protect\input{packages.tex} -N -o paper.tex --template=elsarticle paper.docx
+call paper.ahk
